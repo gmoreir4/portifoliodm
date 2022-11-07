@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/logo-dm-e-shop-provisorio.png'
+import ME from '../../assets/logodmazul.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import {BsBoxSeam} from 'react-icons/bs'
 
 
 const About = () => {
@@ -23,8 +23,8 @@ const About = () => {
               <div className='about__cards'>
                 <article className='about__card'>
                   <FaAward className='about__icon'/>
-                    <h5>Experiências</h5>
-                    <small>Mais de 3 anos Trabalhando</small>
+                    <h5>Experiência</h5>
+                    <small>Mais de 7 anos no mercado</small>
                 </article>
 
                 <article className='about__card'>
@@ -34,13 +34,13 @@ const About = () => {
                 </article>
 
                 <article className='about__card'>
-                  <VscFolderLibrary className='about__icon'/>
-                    <h5>Projetos</h5>
-                    <small>80+ Completos</small>
+                  <BsBoxSeam className='about__icon'/>
+                    <h5>Produtos</h5>
+                    <small>4.000+ Itens</small>
                 </article>
               </div>
               <p>
-              Bata no liquidificador os ovos, o leite, o óleo, o chocolate e o açúcar. Coloque em um bowl e acrescente a farinha e o fermento. Misture delicadamente.
+              A DM Distribuidora é uma loja especializada em acessórios em geral. A maior variedade em Produtos de alta qualidade, Copo Térmico, Acendedor de Churrasqueira, Copo de Tereré e muito mais.
               </p>
               <a href="#contact" className='btn btn-primary'>Vamos conversar</a>
           </div>

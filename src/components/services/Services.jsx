@@ -124,7 +124,7 @@ const Services = () => {
                 <p>Aqui entra um servico ou frase</p>
               </li> 
             </ul>
-        </article>
+        </article> 
         {/*FIM criacoes*/}
 
 

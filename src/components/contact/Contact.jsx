@@ -36,15 +36,15 @@ const Contact = () => {
             </article>
             <article className='contact__option'>
               <RiMessengerLine className='contact__option-icon'/>
-              <h4>Mensageiro</h4>
-              <h5>egatorturials</h5>
+              <h4>Messenger</h4>
+              <h5>Facebook</h5>
               <a href="https://m.me/profile.php?id=100086493730864" target="_blank">Enviar Mensagem </a>
             </article>
             <article className='contact__option'>
               <BsWhatsapp className='contact__option-icon'/>
               <h4>WhatsApp</h4>
               <h5>+55(44) 9993-8701</h5>
-              <a href="https://api.whatsapp.com/send?phone+5544999938701" target="_blank">Enviar Mensagem </a>
+              <a href="https://api.whatsapp.com/send?phone=5544999938701" target="_blank">Enviar Mensagem </a>
             </article>
         </div>
         {/*FIM DO CONTACT ME*/}
